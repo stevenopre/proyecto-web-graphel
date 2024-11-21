@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    align-content: center;
+}
+
+.titulo{
+    display: flex;
+    font-size: 30px;
+    font-family: sans-serif;
+    justify-content: space-around;
+    background-color: rgb(49, 49, 49);
+    padding: 25px 0px 25px 0px;
+}
+
+.barra{
+    background-color: rgb(0, 129, 214);
+    padding: 2px;
+}
+
+.diseño{
+    color: white;
+    margin-right: 10px;
+}
+
+span{
+    color: rgb(0, 129, 214);
+}
+
+.menu{
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+a:hover{
+    color: rgb(0, 129, 214);
+}
+
+.segundo{
+    background-image: url(/images/cabecera.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    padding-top:100px;
+    padding-bottom: 250px;
+    color: white;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+}
+
+.descripcion{
+    font-size: 20px;
+    padding:20px 350px 0px 350px;
+}
+
+.tercero{
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(49, 49, 49);
+    color: white;
+    font-family: sans-serif;
+    padding: 30px 0px 30px 0px;
+}
+.boletin{
+    padding-top: 5px;
+}
+
+#search {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    }
+
+input[type="submit"] {
+    background-color: #ff7300;
+    color: #fff;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 0px;
+}
+
+input:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.cuarto{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.columnas{
+    padding: 50px 70px 50px 70px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.nombrebrand{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    background-color:  rgb(0, 129, 214);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.nosotros{
+    display: flex;
+}
+
+.izquierda{
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    margin-left: 280px;
+    padding-right: 100px;
+}
+
+.parrafo1{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.parrafo2{
+    border: rgb(49, 49, 49) 20px solid;
+    background-color: rgb(49, 49, 49) ;
+    color: white;   
+}
+
+.cafe{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.derecha{
+    margin-right: 200px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.parrafo3{
+    border: rgb(49, 49, 49) 20px solid;
+    background-color: rgb(49, 49, 49) ;
+}
+
+.caja{
+    border: rgb(199, 199, 199) 2px solid;
+    background-color: rgb(219, 218, 218);
+    margin-bottom: 5px;
+    width: 900px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+}
+
+.caja3{
+    border: rgb(199, 199, 199) 2px solid;
+    background-color: rgb(219, 218, 218);
+    margin-bottom: 5px;
+    width: 900px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.parrafo4{
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.cajaDerecha{
+    margin-right: 100px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 30px;
+}
+
+.precio{
+    padding-bottom: 10px;
+}
+
+.contacto{
+    display: flex;
+}
+
+.formularioLargo{
+    width: 900px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+.formularioLargo2{
+    width: 900px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+.botonLargo{
+    background-color: #ff7300;
+    color: #fff;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 0px;
+    width: 922px;
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
+
+.botonLargo:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.nombreFormulario{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.cajaDerecha2{
+    margin-right: 250px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 30px;
+    width: 800px;
+    margin-left: 20px;
+}
+
+.mapa{
+    width: 350px;
+    margin-top: 45px;
+}
